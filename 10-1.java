@@ -1,5 +1,5 @@
 10-1 MinPerimeterRectangle
-Find the minimal perimeter of any rectangle whose area equals N.
+
 
 class Solution {
     public int solution(int N) {
