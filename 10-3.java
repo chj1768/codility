@@ -1,6 +1,6 @@
-10-4 Peaks(88%) 
+10-3 Peaks(100%) 
 
-//https://codility.com/demo/results/training69VAVR-MEE/
+//https://codility.com/demo/results/trainingDK2PWF-6C9/
 
 class Solution {
     
@@ -31,6 +31,8 @@ class Solution {
         if( (last != list.length-1) && list[last-1] < list[last] && list[last] > list[last+1] ) {
             return 1;
         }
+        if( (start > 0 ) && ( list[start-1] < list[start] ) && ( list[start] > list[start+1] ) ) {
+            return 1;
         return 0;
     }
     
